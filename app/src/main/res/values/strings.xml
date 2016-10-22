@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kulineran Jogja</string>
+    <string name="tentang">Tentang</string>
+    <string name="tentang_panjang">Kulineran Jogja merupakan aplikasi pencari kuliner yang berbasis di Yogyakarta.
+
+        \n\nAplikasi Kulineran Jogja akan mencoba memberikan informasi tempat-tempat kuliner paling hits di Yogyakarta dengan memanfaatkan fitur <i>API Google Maps.</i>
+
+        \n\nKulineran Jogja sementara ini dibangun untuk kebutuhan penyelesaian tugas akhir skripsi, yang dimana nantinya konten didalam aplikasi ini akan dikembangkan lebih lanjut lagi, setelah tugas akhir selesai.</string>
+    <string name="profil_panjang">Nama: Fadlila Rohim \nNIM:12.11.5886 </string>
+    <string name="title_activity_maps">Map</string>
+</resources>
