@@ -35,12 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
-        //Collapsing Toolbar
-        CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setCollapsedTitleTextColor(getResources().getColor(R.color.colorText));
-        collapsingToolbar.setExpandedTitleColor(getResources().getColor(R.color.colorText));
-
         //Recycler View
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 

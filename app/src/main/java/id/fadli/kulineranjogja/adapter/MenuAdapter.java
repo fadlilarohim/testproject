@@ -70,11 +70,11 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.HomeHolder> {
             itemView.setClickable(true);
             itemView.setOnClickListener(this);
         }
-
+        //klik menu
         @Override
         public void onClick(View v) {
             Intent intent = null;
-            switch (getPosition()){
+            switch (getAdapterPosition()){
                 case 0:
                     intent =  new Intent(context, Tentang.class);
                     break;
@@ -88,9 +88,15 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.HomeHolder> {
                 case 3:
                     intent =  new Intent(context, Profil.class);
                     break;
+                case 4:
+                    intent =  new Intent(context, Profil.class);
+                    break;
+                case 5:
+                    intent =  new Intent(context, Profil.class);
+                    break;
             }
             mContext.startActivity(intent);
-            Toast.makeText(context,"The Item Clicked is: "+getPosition(),Toast.LENGTH_SHORT).show();
+            Toast.makeText(context,"The Item Clicked is: "+getAdapterPosition(),Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -31,7 +31,6 @@
         <activity android:name=".ui.Tentang" />
         <activity android:name=".ui.Profil" />
         <activity android:name=".ui.Kategori" />
-        <activity android:name=".ui.SearchFab" />
         <activity android:name=".ui.MapsActivity"/>
 
     </application>
