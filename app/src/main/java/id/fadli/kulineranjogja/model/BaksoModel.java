@@ -6,16 +6,16 @@ import java.io.Serializable;
  * Created by fadli on 28/10/2016.
  */
 
-public class MieBaksoModel  {
+public class BaksoModel {
 
     private String name, deskripsi;
     private int thumbnail;
 
-    public MieBaksoModel() {
+    public BaksoModel() {
 
     }
 
-    public MieBaksoModel(String name, String deskripsi, int thumbnail) {
+    public BaksoModel(String name, String deskripsi, int thumbnail) {
         this.name = name;
         this.thumbnail = thumbnail;
         this.deskripsi = deskripsi;

@@ -2,7 +2,6 @@ package id.fadli.kulineranjogja.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,30 +11,24 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.Key;
 
 import java.util.List;
-import java.util.jar.Attributes;
 
 import id.fadli.kulineranjogja.R;
-import id.fadli.kulineranjogja.model.MenuKategori;
-import id.fadli.kulineranjogja.model.MieBaksoModel;
+import id.fadli.kulineranjogja.model.BaksoModel;
 import id.fadli.kulineranjogja.ui.DetailBakso;
-import id.fadli.kulineranjogja.ui.Kategori;
-import id.fadli.kulineranjogja.ui.Profil;
-import id.fadli.kulineranjogja.ui.Tentang;
 
 /**
  * Created by fadli on 28/10/2016.
  */
 
-public class MieBaksoAdapter extends RecyclerView.Adapter<MieBaksoAdapter.MieBaksoHolder> {
+public class BaksoAdapter extends RecyclerView.Adapter<BaksoAdapter.MieBaksoHolder> {
 
     private final Context mContext;
-    private List<MieBaksoModel> mieBaksoList;
+    private List<BaksoModel> mieBaksoList;
     private LayoutInflater inflater;
 
-    public MieBaksoAdapter(Context mContext, List<MieBaksoModel> mieBaksoList) {
+    public BaksoAdapter(Context mContext, List<BaksoModel> mieBaksoList) {
         this.mContext = mContext;
         this.mieBaksoList = mieBaksoList;
         inflater = LayoutInflater.from(mContext);
@@ -53,7 +46,7 @@ public class MieBaksoAdapter extends RecyclerView.Adapter<MieBaksoAdapter.MieBak
     @Override
     public void onBindViewHolder(MieBaksoHolder holder, int position) {
 
-        MieBaksoModel menu = mieBaksoList.get(position);
+        BaksoModel menu = mieBaksoList.get(position);
         holder.titleBakso.setText(menu.getName());
         holder.desBakso.setText(menu.getDeskripsi());
         //glide

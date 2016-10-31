@@ -32,7 +32,7 @@
         <activity android:name=".ui.Profil" />
         <activity android:name=".ui.Kategori" />
         <activity android:name=".ui.MapsActivity"/>
-        <activity android:name=".ui.MieBakso"/>
+        <activity android:name=".ui.Bakso"/>
         <activity android:name=".ui.DetailBakso"/>
 
     </application>

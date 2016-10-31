@@ -17,9 +17,8 @@ import java.util.List;
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.model.MenuKategori;
 import id.fadli.kulineranjogja.ui.Kategori;
-import id.fadli.kulineranjogja.ui.MieBakso;
+import id.fadli.kulineranjogja.ui.Bakso;
 import id.fadli.kulineranjogja.ui.Profil;
-import id.fadli.kulineranjogja.ui.Tentang;
 
 
 /**
@@ -82,7 +81,7 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriAdapter.Katego
             Intent intent = null;
             switch (getAdapterPosition()) {
                 case 0:
-                    intent = new Intent(context, MieBakso.class);
+                    intent = new Intent(context, Bakso.class);
                     break;
 
                 case 1:
