@@ -16,9 +16,6 @@ public class DetailBakso extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_bakso);
 
-        Bundle bundle = getIntent().getExtras();
-        String stuff = bundle.getString("stuff");
-
 
     }
 }
