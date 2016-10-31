@@ -4,8 +4,6 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -32,7 +30,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.RetrofitMaps;
-import id.fadli.kulineranjogja.adapter.Example;
+import id.fadli.kulineranjogja.adapter.map.Example;
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.GsonConverterFactory;
@@ -123,7 +121,7 @@ public class MapsActivity extends FragmentActivity implements
         btnRestaurant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                build_retrofit_and_get_response("hotel");
+                build_retrofit_and_get_response("cafe");
             }
         });
 
@@ -131,7 +129,7 @@ public class MapsActivity extends FragmentActivity implements
         btnHospital.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                build_retrofit_and_get_response("hospital");
+                build_retrofit_and_get_response("bar");
             }
         });
 
@@ -139,7 +137,7 @@ public class MapsActivity extends FragmentActivity implements
         btnSchool.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                build_retrofit_and_get_response("school");
+                build_retrofit_and_get_response("mosque");
             }
         });
     }

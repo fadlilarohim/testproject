@@ -17,6 +17,7 @@ import java.util.List;
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.model.MenuKategori;
 import id.fadli.kulineranjogja.ui.Kategori;
+import id.fadli.kulineranjogja.ui.MieBakso;
 import id.fadli.kulineranjogja.ui.Profil;
 import id.fadli.kulineranjogja.ui.Tentang;
 
@@ -72,8 +73,8 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriAdapter.Katego
             titleKat = (TextView) view.findViewById(R.id.title_kat);
             desKat = (TextView) view.findViewById(R.id.deskripsi);
             thumbnailKat = (ImageView) view.findViewById(R.id.thumbnail_kat);
-            itemView.setOnClickListener(this);
-            itemView.setClickable(true);
+            thumbnailKat.setClickable(true);
+            thumbnailKat.setOnClickListener(this);
         }
 
         @Override
@@ -81,7 +82,7 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriAdapter.Katego
             Intent intent = null;
             switch (getAdapterPosition()) {
                 case 0:
-                    intent = new Intent(context, Tentang.class);
+                    intent = new Intent(context, MieBakso.class);
                     break;
 
                 case 1:
@@ -91,6 +92,18 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriAdapter.Katego
                     intent = new Intent(context, Profil.class);
                     break;
                 case 3:
+                    intent = new Intent(context, Profil.class);
+                    break;
+                case 4:
+                    intent = new Intent(context, Profil.class);
+                    break;
+                case 5:
+                    intent = new Intent(context, Profil.class);
+                    break;
+                case 6:
+                    intent = new Intent(context, Profil.class);
+                    break;
+                case 7:
                     intent = new Intent(context, Profil.class);
                     break;
             }

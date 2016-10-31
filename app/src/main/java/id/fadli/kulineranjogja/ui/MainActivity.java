@@ -12,13 +12,18 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.adapter.MenuAdapter;
 import id.fadli.kulineranjogja.model.MenuAwal;
+import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,26 +49,32 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setItemAnimator(new SlideInUpAnimator());
         recyclerView.setAdapter(adapter);
 
         prepareMenu();
+
+        try {
+            Glide.with(this).load(R.drawable.cover).into((ImageView) findViewById(R.id.bgheader));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
     private void prepareMenu(){
         int[] covers = new int[]{
-                R.drawable.logo,
-                R.drawable.logo,
-                R.drawable.logo,
-                R.drawable.logo,};
+                R.drawable.tentang,
+                R.drawable.explore,
+                R.drawable.profile,
+                R.drawable.bantuan,};
         MenuAwal a = new MenuAwal("Tentang", covers[0]);
         homeList.add(a);
-        a = new MenuAwal("cari kuliner", covers[1]);
+        a = new MenuAwal("Explore kuliner", covers[1]);
         homeList.add(a);
-        a = new MenuAwal("profil", covers[2]);
+        a = new MenuAwal("Profil", covers[2]);
         homeList.add(a);
-        a = new MenuAwal("bantuan", covers[3]);
+        a = new MenuAwal("Bantuan", covers[3]);
         homeList.add(a);
     }
 

@@ -1,4 +1,4 @@
-package id.fadli.kulineranjogja.adapter;
+package id.fadli.kulineranjogja.adapter.map;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

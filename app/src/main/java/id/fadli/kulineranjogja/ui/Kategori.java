@@ -12,6 +12,9 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +22,7 @@ import java.util.List;
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.adapter.KategoriAdapter;
 import id.fadli.kulineranjogja.model.MenuKategori;
+import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 public class Kategori extends AppCompatActivity {
 
@@ -55,16 +59,24 @@ public class Kategori extends AppCompatActivity {
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
         recKategori.setLayoutManager(mLayoutManager);
         recKategori.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
-        recKategori.setItemAnimator(new DefaultItemAnimator());
+        recKategori.setItemAnimator(new SlideInUpAnimator());
         recKategori.setAdapter(adapter);
 
         prepareKategori();
+
+        try {
+            Glide.with(this).load(R.drawable.kategori).into((ImageView) findViewById(R.id.bgheader_kategori));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
     private void prepareKategori() {
         int[] covers = new int[]{
                 R.drawable.bakso,
+                R.drawable.bakmi,
+                R.drawable.mieayam,
                 R.drawable.restoran,
                 R.drawable.nasigoreng,
                 R.drawable.dessert,
@@ -73,21 +85,25 @@ public class Kategori extends AppCompatActivity {
                 R.drawable.gudeg,
                 R.drawable.oleh,};
         MenuKategori
-                a = new MenuKategori("Mie dan Bakso", "Untuk kamu pencinta makanan Mie dan Bakso ", covers[0]);
+                a = new MenuKategori("Bakso", "Untuk kamu pencinta makanan Bakso ", covers[0]);
         kategoriList.add(a);
-        a = new MenuKategori("Restoran", "Restoran di Jogjakarta", covers[1]);
+        a = new MenuKategori("Bakmi", "Bakmi jawa khas Jogjakarta", covers[1]);
         kategoriList.add(a);
-        a = new MenuKategori("Nasi Goreng", "Tempat-tempat nasi goreng terasik dan enak", covers[2]);
+        a = new MenuKategori("Mie Ayam", "Mie Ayam paling hits di Jogjakarta", covers[2]);
         kategoriList.add(a);
-        a = new MenuKategori("Dessert", "Buat kamu yang ingin mencuci mulut dan nongkrong", covers[3]);
+        a = new MenuKategori("Restoran", "Restoran di Jogjakarta", covers[3]);
         kategoriList.add(a);
-        a = new MenuKategori("Angkringan", "Jangan lupa untuk mampir di Angkringan", covers[4]);
+        a = new MenuKategori("Nasi Goreng", "Tempat-tempat nasi goreng terasik dan enak", covers[4]);
         kategoriList.add(a);
-        a = new MenuKategori("Coffee", "Nongkrong asik dengan suasana khas Jogja", covers[5]);
+        a = new MenuKategori("Dessert", "Buat kamu yang ingin mencuci mulut dan nongkrong", covers[5]);
         kategoriList.add(a);
-        a = new MenuKategori("Gudeg", "Mampir ke Jogja belum lengkap kalo belum makan Gudeg", covers[6]);
+        a = new MenuKategori("Angkringan", "Jangan lupa untuk mampir di Angkringan", covers[6]);
         kategoriList.add(a);
-        a = new MenuKategori("Oleh-oleh", "Tempat cari buah tangan untuk keluarga kamu", covers[7]);
+        a = new MenuKategori("Coffee", "Nongkrong asik dengan suasana khas Jogja", covers[7]);
+        kategoriList.add(a);
+        a = new MenuKategori("Gudeg", "Mampir ke Jogja belum lengkap kalo belum makan Gudeg", covers[8]);
+        kategoriList.add(a);
+        a = new MenuKategori("Oleh-oleh", "Tempat cari buah tangan untuk keluarga kamu", covers[9]);
         kategoriList.add(a);
     }
 

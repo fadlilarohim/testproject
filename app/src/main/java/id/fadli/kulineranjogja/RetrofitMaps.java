@@ -1,6 +1,6 @@
 package id.fadli.kulineranjogja;
 
-import id.fadli.kulineranjogja.adapter.Example;
+import id.fadli.kulineranjogja.adapter.map.Example;
 import retrofit.Call;
 import retrofit.http.GET;
 import retrofit.http.Query;

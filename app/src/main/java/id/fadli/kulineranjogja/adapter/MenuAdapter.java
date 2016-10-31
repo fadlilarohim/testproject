@@ -14,6 +14,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import id.fadli.kulineranjogja.ui.DetailBakso;
 import id.fadli.kulineranjogja.ui.Kategori;
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.ui.Profil;
@@ -67,8 +68,8 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.HomeHolder> {
             context = itemView.getContext();
             title = (TextView) view.findViewById(R.id.title);
             thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
-            itemView.setClickable(true);
-            itemView.setOnClickListener(this);
+            thumbnail.setClickable(true);
+            thumbnail.setOnClickListener(this);
         }
         //klik menu
         @Override
