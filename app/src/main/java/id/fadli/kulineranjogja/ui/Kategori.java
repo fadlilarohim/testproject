@@ -37,14 +37,6 @@ public class Kategori extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kategori);
 
-        fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Kategori.this, MapsActivity.class);
-                startActivity(intent);
-            }
-        });
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_kategori);
         setSupportActionBar(toolbar);
@@ -79,8 +71,6 @@ public class Kategori extends AppCompatActivity {
                 R.drawable.mieayam,
                 R.drawable.restoran,
                 R.drawable.nasigoreng,
-                R.drawable.dessert,
-                R.drawable.angkringan,
                 R.drawable.kopi,
                 R.drawable.gudeg,
                 R.drawable.oleh,};
@@ -95,15 +85,11 @@ public class Kategori extends AppCompatActivity {
         kategoriList.add(a);
         a = new MenuKategori("Nasi Goreng", "Tempat-tempat nasi goreng terasik dan enak", covers[4]);
         kategoriList.add(a);
-        a = new MenuKategori("Dessert", "Buat kamu yang ingin mencuci mulut dan nongkrong", covers[5]);
+        a = new MenuKategori("Coffee", "Nongkrong asik dengan suasana khas Jogja", covers[5]);
         kategoriList.add(a);
-        a = new MenuKategori("Angkringan", "Jangan lupa untuk mampir di Angkringan", covers[6]);
+        a = new MenuKategori("Gudeg", "Mampir ke Jogja belum lengkap kalo belum makan Gudeg", covers[6]);
         kategoriList.add(a);
-        a = new MenuKategori("Coffee", "Nongkrong asik dengan suasana khas Jogja", covers[7]);
-        kategoriList.add(a);
-        a = new MenuKategori("Gudeg", "Mampir ke Jogja belum lengkap kalo belum makan Gudeg", covers[8]);
-        kategoriList.add(a);
-        a = new MenuKategori("Oleh-oleh", "Tempat cari buah tangan untuk keluarga kamu", covers[9]);
+        a = new MenuKategori("Oleh-oleh", "Tempat cari buah tangan untuk keluarga kamu", covers[7]);
         kategoriList.add(a);
     }
 

@@ -17,19 +17,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import id.fadli.kulineranjogja.R;
+import id.fadli.kulineranjogja.adapter.BakmieAdapter;
 import id.fadli.kulineranjogja.adapter.BaksoAdapter;
 import id.fadli.kulineranjogja.model.Model;
 import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 /**
- * Created by fadli on 28/10/2016.
+ * Created by fadli on 1/11/2016.
  */
 
-public class Bakso extends AppCompatActivity {
+public class Bakmi extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private BaksoAdapter adapter;
-    private List<Model> mieBaksoList;
+    private BakmieAdapter adapter;
+    private List<Model> listBakmi;
 
 
     @Override
@@ -40,12 +41,12 @@ public class Bakso extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_miebakso);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-        setTitle("Bakso");
+        setTitle("Bakmie");
 
         recyclerView = (RecyclerView) findViewById(R.id.recview_miebakso);
 
-        mieBaksoList = new ArrayList<>();
-        adapter = new BaksoAdapter(this, mieBaksoList);
+        listBakmi = new ArrayList<>();
+        adapter = new BakmieAdapter(this, listBakmi);
 
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(mLayoutManager);
@@ -53,66 +54,52 @@ public class Bakso extends AppCompatActivity {
         recyclerView.setItemAnimator(new SlideInUpAnimator());
         recyclerView.setAdapter(adapter);
 
-        prepareBakso();
+        prepareBakmie();
 
         try {
-            Glide.with(this).load(R.drawable.baksoup).into((ImageView) findViewById(R.id.bgheader_miebakso));
+            Glide.with(this).load(R.drawable.bakmi).into((ImageView) findViewById(R.id.bgheader_miebakso));
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private void prepareBakso() {
+    private void prepareBakmie() {
         int[] covers = new int[]{
-                R.drawable.klenger,
-                R.drawable.bethesda,
-                R.drawable.jawi,
-                R.drawable.telkom,
-                R.drawable.ito,
-                R.drawable.tengkleng,
-                R.drawable.narto,
-                R.drawable.blangkon,
-                R.drawable.karno,
-                R.drawable.ironayan,
-                R.drawable.tembak,
-                R.drawable.granatz,
-                R.drawable.baskom,
-                R.drawable.idola,
-                R.drawable.krikil,
-                R.drawable.sronto,};
+                R.drawable.pele,
+                R.drawable.shibitsu,
+                R.drawable.mbahmo,
+                R.drawable.doring,
+                R.drawable.hadi,
+                R.drawable.rebo,
+                R.drawable.geno,
+                R.drawable.dumuk,
+                R.drawable.kadin,
+                R.drawable.lethek,
+                R.drawable.gito,};
 
-        Model a = new Model("Bakso Klenger Ratu Sari", "Jalan Nologaten 296 Ambarukmo Depok Sleman Yogyakarta ", covers[0]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Bethesda", "Jalan Johar Nurhadi, Kotabaru, Gondokusuman", covers[1]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Jawi Bu Miyar", "Jalan Jogonegaran No.55D, Kota Yogyakarta", covers[2]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Telkom Utomo", "Jalan Kenari Timoho No.61, Daerah Istimewa Yogyakarta", covers[3]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Ito", "Jalan Mataram No.59, Suryatmajan, Danurejan", covers[4]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Tengkleng Mas Bambang Jogja", "Jl. Monjali No. 80, Sleman, Daerah Istimewa Yogyakarta", covers[5]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Pak Narto", "Jl. Affandi, Caturtunggal, Kec. Depok, Kabupaten Sleman", covers[6]);
-        mieBaksoList.add(a);
-        a = new Model("Mie Bakso Mr. Blangkon", "JL Kaliurang, KM. 14,5, Degolan, Sleman", covers[7]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Malang Cak Karno", "Jalan MT. Haryono No. 68, Suryodiningratan, Mantrijeron, Kota Yogyakarta", covers[8]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Ironayan", "Baturetno, Banguntapan, Bantul Regency, Special Region of Yogyakarta 55197n", covers[9]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Lapangan Tembak", "LG Blok A2 No.3, Plaza Ambarrukmo, Jalan Laksda Adisucipto, Catur Tunggal, Kecamatan Depok, Kabupaten Sleman", covers[10]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Granatz", "Ruko Babarsari, Jalan Raya Babarsari Babarsari, Jl. Babarsari No.44, Sleman", covers[11]);
-        mieBaksoList.add(a);
-        a = new Model("BASKOM (Bakso Komplit)", "Jalan Wonosari KM.9, RT.06 / RW.05, Sendang Tirto, Berbah, Kabupaten Sleman", covers[12]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Idolaku", "Jalan Taman Siswa No. 100, Daerah Istimewa Yogyakarta", covers[13]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Krikil Pak Supri", "Jalan Godean Km.5 No.105, Gamping, Sleman", covers[14]);
-        mieBaksoList.add(a);
-        a = new Model("Bakso Pak Sronto", "Jl. Letjen Suprapto, Ngampilan, Kota Yogyakarta", covers[15]);
-        mieBaksoList.add(a);
+        Model a = new Model("Bakmi Pak Pele", "JL. Pojok Tenggara Alun-Alun Utara , Panembahan , Kraton , Yogyakarta ", covers[0]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Shibitsu", "Jl. Bantul No.111, Gedongkiwo, Mantrijeron, Kota Yogyakarta", covers[1]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Jawa Mbah Mo", "Desa Code, Kelurahan Trirenggo, Kecamatan Bantul, Bantul", covers[2]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Doring", "Jalan Suryowijayan No. 348, Kota Yogyakarta", covers[3]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Jawa Mbah Hadi Terban", "Jalan C Simanjuntak No. 1, Kota Yogyakarta, Daerah Istimewa Yogyakarta", covers[4]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Jawa Pak Rebo", " Jl. Brigjen Katamso, Keparakan, Mergangsan, Kota Yogyakarta", covers[5]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Jawa Pak Geno", "Jl. Parangtritis, Daerah Istimewa Yogyakarta 55143, Indonesia", covers[6]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Mbah Dumuk", "JL. Magelang, Km 12, Kec. Sleman, Kabupaten Sleman", covers[7]);
+        listBakmi.add(a);
+        a = new Model("Bakmi & Bajigur Kadin Mbah Hj. Karto", " Jalan Bintaran Kulon No. 6, Wirogunan, Mergangsan, Kota Yogyakarta", covers[8]);
+        listBakmi.add(a);
+        a = new Model("Bakmie Lethek Bantul Mbah Mendes", "Jalan Sarirejo, Maguwoharjo, Depok, Sleman", covers[9]);
+        listBakmi.add(a);
+        a = new Model("Bakmi Jowo Mbah Gito", "Peleman,, Jl. Nyi Ageng Nis, Rejowinangun, Kotagede, Kota Yogyakarta", covers[10]);
+        listBakmi.add(a);
+
     }
 
     //Recycler View Decoration
@@ -158,5 +145,4 @@ public class Bakso extends AppCompatActivity {
         Resources r = getResources();
         return Math.round(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, r.getDisplayMetrics()));
     }
-
 }

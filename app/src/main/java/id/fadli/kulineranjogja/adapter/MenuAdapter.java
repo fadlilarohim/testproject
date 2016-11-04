@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import id.fadli.kulineranjogja.ui.DetailBakso;
+import id.fadli.kulineranjogja.ui.Bantuan;
 import id.fadli.kulineranjogja.ui.Kategori;
 import id.fadli.kulineranjogja.R;
 import id.fadli.kulineranjogja.ui.Profil;
@@ -87,13 +87,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.HomeHolder> {
                     intent =  new Intent(context, Profil.class);
                     break;
                 case 3:
-                    intent =  new Intent(context, Profil.class);
-                    break;
-                case 4:
-                    intent =  new Intent(context, Profil.class);
-                    break;
-                case 5:
-                    intent =  new Intent(context, Profil.class);
+                    intent =  new Intent(context, Bantuan.class);
                     break;
             }
             mContext.startActivity(intent);

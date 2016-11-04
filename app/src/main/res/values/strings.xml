@@ -8,4 +8,268 @@
         \n\nKulineran Jogja sementara ini dibangun untuk kebutuhan penyelesaian tugas akhir skripsi, yang dimana nantinya konten didalam aplikasi ini akan dikembangkan lebih lanjut lagi, setelah tugas akhir selesai.</string>
     <string name="profil_panjang">Nama: Fadlila Rohim \nNIM:12.11.5886 </string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="Null"></string>
+
+    <string name="Klenger_alamat">
+Jalan Nologaten #-#296 Ambarukmo Depok Sleman Yogyakarta, Yogyakarta, Daerah Istimewa Yogyakarta 55281, Indonesia
+    </string>
+        <string name="Klenger_deskripsi">
+Suka kuliner? khususnya bakso? Kalian wajib coba varian bakso dengan ukuran jumbo (dengan berat 250 gram) hingga super jumbo (dengan berat 5 kg) yang ditawarkan oleh Bakso Klenger Ratu Sari. Tak hanya berbeda dari segi ukuran, makanan yang terbuat dari Olahan dari daging sapi ini juga memiliki ciri khas lain yang tidak ditemukan di warung bakso lainnya yaitu di dalam baksonya terdapat telur ayam.
+
+\n\nPenyajiannya pun cukup unik karena menggunakan mangkuk yang juga berukuran besar dilengkapi dengan garpu dan pisau untuk memotong-motong bakso yang berukuran besar itu. Walaupun ukurannya besar, bakso jumbo tersebut tetap memiliki rasa yang nikmat (nggak cuma tepung doang, tapi juga berasa dagingnya), bumbunya merata, dan baksonya matang sempurna.
+    </string>
+        <string name="bethesda_alamat">
+Jalan Johar Nurhadi, Kotabaru, Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia
+    </string>
+        <string name="bethesda_deskripsi">
+            Konon katanya warung bakso ini sudah berdiri sejak tahun 1974. Mungkin karena alasan ini mereka sekarang menggunakan nama Bakso Bethesda 74. Bakso yang sangat terkenal ini dinamakan Bakso Bethesda juga karena berdekatan dengan Rumah Sakit Bethesda Yogyakarta. Tepatnya berada di Jl. Yohanes Nurhadi, Jogjakarta.
+
+\n\nWarungnya sendiri sama seperti warung-warung bakso pada umumnya. Warung bakso ini cukup kecil dan sempit, karena menempati salah satu sisi trotoar jalan yang tidak terlalu besar. Soal rasa, bakso bikinan Bethesda 74 sangat lembut di lidah. Kualiatas adalah nomer satu. Bahan-bahan alami yang aman untuk kesehatan juga dipastikan terkandung dalam setiap butir bakso ini. Label halal dari MUI juga menjadi jaminan bahwa daging sapi yang dipakai benar-benar halal dan terjamin kualitasnya.
+
+\n\nDaging yang digunakan hanya bagian silap kumol (sampil paha belakang) dan perbandingan antara daging dan bumbunya 1 : 1, sehingga terasa liat, kenyal dan tidak alot. Pada perkembanganya, Bakso Bethesda 74 mengeluarkan varian menu bakso, yakni tahu bakso dan bakso kriuk. Satu porsi bakso berisi tiga buah bakso, mie kuning dan bakso goreng. Ukuran baksonya tidak terlalu besar, tapi rasa baksonya memang enak sekali. Teksturnya lebut dan kenyal, bisa Anda rasakan perbedaannya begitu menggigit Bakso Bethesda ini. Kuah baksonya gurih tapi tidak terlalu kuat di mulut.
+    </string>
+
+    <string name="Jawi_alamat">
+        Jl. Jogonegaran No.55D, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55151, Indonesia
+    </string>
+
+    <string name="Jawi_deskripsi">
+         \n\nNgomongin bakso di Jogja emang ga ada habisnya. Hampir semuanya enak dan yang pasti nagih di setiap waktu ga peduli itu mau pagi, siang, sore, ataupun malam. Salah satunya ya bakso jawi bu miyar ini.
+
+\n\nGa tau kenapa mereka menamakan bakso mereka sebagai bakso jawa. Bakso Jawa biasanya cenderung ukuran nya kecil-kecil tapi bakso yang mereka sediakan di sini ukuran nya standar.
+        \n\nOh iya bakso nya yang paling termasyur di sini itu bakso gorengnya. Ehem-ehem kebayang ga sih bakso goreng yang siap melumat lidah agan dengan kuah kaldu hangatnya.
+    </string>
+
+    <string name="Telkom_alamat">
+        Jalan Kenari Timoho No.61, Daerah Istimewa Yogyakarta 55165, Indonesia
+    </string>
+
+    <string name="Telkom_deskripsi">
+         \n\nBaksonya memiliki kekenyalan yang pas sehingga terasa begitu lembut ketika diiris dan dikunyah. Selain teksturnya yang lembut, rasanya pun juga lezat. Kuahnya yang bening namun gurih ini sangat lezat dan menyegarkan. Kuahnya yang berpadu dengan lembutnya bakso ini seolah memunculkan cita rasa yang sederhana, sangat pas, dan juga lezat. Semua bercampur tanpa berlebihan.
+
+\n\nSelain itu, daya tarik dari bakso ini adalah bakso gorengnya. Bakso goreng yang telah diiris-iris ini  terasa sangat crispy. Tekstur ini seolah melengkapi baksonya  serta memperkaya bakso ini. Dan untuk menikmati stu porsi bakso komplit ini,saya hanya perlu mengeluarkan duit senilai Rp. 12.000 saja, tidak mahal bukan?
+    </string>
+    <string name="Ito_alamat">
+        Jl. Mataram No.59, Suryatmajan, Danurejan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55213, Indonesia
+    </string>
+        <string name="Ito_deskripsi">
+            \n\nBakso Ito merupakan salah satu rumah makan yang ada di kota Jogja. Resto ini terletak di sekitar Jalan Mataram Jogja, di sebelah timur Malioboro. Bakso Ito memang berlokasi dengan pertemuan Jalan Perwakilan. Tempatnya memang cukup tertutup, ditutupi dengan kaca.
+
+            \n\nBakso ITO ini sebenarnya salah satu tempat makan yang  sudah Go Internasional. Bakso ITO pernah diliput sama acara reality show Korea bernama Barefoot Friends. Di mana para peserta reality show nya mampir ke Jogja dan makan di Bakso ITO
+
+            \n\nResto satu ini menyajikan Bakso kuah sebagai menu utamanya. Untuk harga, semangkuk bakso mie harganya Rp 10.000,00. Es kopyor juga dijual dengan harga yang sama.
+        </string>
+
+        <string name="Bambang_alamat">
+         Jl. Monjali No. 80, Sleman, Daerah Istimewa Yogyakarta 55284, Indonesia
+    </string>
+        <string name="Bambang_deskripsi">
+            \n\nJika Anda datang ke Jogja dan ingin merasakan bakso, sebaiknya Anda tidak melewatkan Bakso Tengkleng Mas Bambang.
+
+\n\nSalah satu warung bakso yang menawarkan daging sapinya hampir 100% ini akan membuat siapa saja yang mencobanya bakal ketagihan. Oleh sebab itu, Bakso Tengkleng Mas Bambang mempunyai tegline "Bakso Itu Daging".
+
+\n\nYa, Bakso Paling Berani yang berasal dari Kota Wonogiri Jawa Tengah ini mampu membuat penduduk Jogja kesemsem. Selain daripada baksonya yang paling berani, ciri khas dan keunik dari Bakso Mas Bambang ini adalah "Tengkleng".
+
+\n\nTengkleng adalah irisan daging sapi yang masih menyatu dengan tulangnya. Dengan menambahkan tengkleng dalam setiap porsi bakso olahan Mas Bambang ini, membuat bakso benar-benar hidup dengan rasa daging sapi.
+        </string>
+            <string name="Narto_alamat">
+         Jl. Affandi, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281, Indonesia
+    </string>
+        <string name="Narto_deskripsi">
+            \n\nBakso merupakan salah satu kuliner khas indonesia, bakso banyak digemari oleh segala usia dari ana-anak sampai orang tua. Bakso sendiri dikembangkan dengan berbagain varian yang juga digemari dengan banyak orang yaitu Mie Ayam yang juga bisa dijadikan Mie Ayam Bakso.
+
+\n\nSalah satu warung makan yang menjajakan menu Bakso yaitu Warung Bakso Pak Narto, warung bakso ini hanya menjajakan Bakso, Mie Ayam dan Soto. Warung makan Bakso Pak Nartu buka cabang di berbagai tempat di jogja ada sekitar 6 cabang, jika kalian ingin kesana sangat mudah mencarinya dan terletak di tempat strategis di area Yogyakarta. Warung Bakso Pak Narto memiliki cita rasa yang menggugah selera dengan kuah yang tidak terlalu kentar dan rasa bakso nya yang pas, bakso yang empuk tetapi tetap dengan teksturenya yang enak membuat penikmat sanyat senenang menikmati aneka varian olahan dari daging sapi ini. Harga yang di bandrol oleh Warung Bakso Pak Narto ini juga terbilang tidak mahal dan pas dikantong mahasiswa Makanan mulai dari 8.000 dan minuman mulai dari 1.000
+
+\n\nWarung Bakso Pak Narto juga menyediakan suasana yang nyaman dan bersih dengan pegawai yang ramah. Cara pemesanannya yang juga mudah dengan cara saat kita sudah duduk pegawai akan mendatangi kita dan mencatat apa saja pesanan kita dan tidak lama menu yang kita pesan akan datang. Pesanan yang tidak lama membuat saya juga senang memesan makanan dan minuman disini.
+        </string>
+<string name="Blangkon_alamat">
+          JL Kaliurang, KM. 14,5, Degolan, Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55223, Indonesia
+    </string>
+<string name="Blangkon_deskripsi">
+            \n\nJika Anda inngin menikmati aneka bakso namun dengan suasana yang berbeda dengan tempat –tempat bakso  yang biasa Anda kunjungi, coba saja datang ke Mie Bakso Mr Blangkon. Mie Bakso Mr.  Blangkon berada Jl Kaliurang Km 15, Degolan Sleman.
+
+ \n\nMie Bakso Mr Blangkon merupakan restoran yang bercirikan khas jogja dengan bangunannya yang berarsitektur Jawa. Di tempat ini terdapat tiga bangunan Joglo yang berada di atas kolam dan  Gazebo-gazebo balekambang lesehan yang juga berdiri di atas kolam. Dari bangunan-bangunan ini Anda dapat menikmati berbagai macam koleksi  ikan yang ada sembari merasakan segarnya udara gunung Merapi.  Jika Anda membawa anak-anak bersama Anda jangan khawatir mereka akan bosan karena tempat ini juga menyediakan play ground untuk anak-anak. Selain itu tempat ini juga menyediakan fasilitas Hot Spot.
+</string>
+    <string name="Karno_alamat">
+          JL Kaliurang, KM. 14,5, Degolan, Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55223, Indonesia
+    </string>
+<string name="Karno_deskripsi">
+     \n\nWarung ini menjadi jujugan makan siang bagi pecinta bakso malang. Dengan beberapa butir bakso dan satu pangsit goreng Cak Parno menyajikan hidangan baksonya terlihat sederhana untuk ukuran bakso malang karena tidak ada ornamen seperti pangsit kukus, tahu putih dan lain-lain seperti bakso malang pada umumnya.
+
+ \n\nDengan siraman kuah bening yang segar menemani 3 butir bakso dengan adonan daging yang halus serta tidak banyak serat sehingga nyaman ketika digigit. Sebelum menggigit pangsit,  tidak terlalu menaruh harapan pada pangsit goreng di sini bakalan enak. Tetapi rasanya malah agak mengejutkan dengan sensasi kriuk yang pas selain itu isian pangsitnya terasa sangat gurih.
+
+ \n\nBanyak para pelanggan bakso cak Karno yang berasal dari luar kota berkunjung dan menikmati bakso malang cak Karno. Bakso cak Karno juga dijamin halal karena bakso-baksonya 100% terbuat dari daging sapi segar. Tidak hanya bakso saja yang bisa dinikmati di sini, di warung Cak Karno kita juga bisa memesan menu es campur dan aneka minuman mulai dari yang dingin hingga panas.
+</string>
+        <string name="Ironayan_alamat">
+          Baturetno, Banguntapan, Bantul Regency, Special Region of Yogyakarta 55197, Indonesia
+    </string>
+<string name="Ironayan_deskripsi">
+     \n\nLokasinya yang cukup jauh dari pusat kota Yogyakarta tak membuat warung bakso ini sepi pembeli. Warung Bakso Pak Jam ini terletak di Dusun Ironayan, Kelurahan Baturetno, Kecamatan Banguntapan, Kabupaten Bantul, Yogyakarta.
+
+ \n\nSeporsi bakso komplit berisi mi kuning, potongan tahu, bakso goreng, dan empat butir bakso yang disiram kuah panas ini hanya seharga Rp 11.000. Kuah baksonya, cukup bening dengan rasa yang gurih dan segar. Citarasa bakso tersebut akan semakin mantap jika ditambah dengan sambal.
+
+ \n\n"Sambalnya pun cukup spesial. Jika di kebanyakan warung bakso sambalnya terbuat dari cabai yang direbus lalu dihaluskan, di sini sebelum digiling cabainya kami goreng, dan setelah itu kami goreng lagi," ujar Jamhari, pemilik warung bakso ini.
+</string>
+            <string name="Tembak_alamat">
+          LG Blok A2 No.3, Plaza Ambarrukmo, Jalan Laksda Adisucipto, Catur Tunggal, Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281, Indonesia
+    </string>
+<string name="Tembak_deskripsi">
+ \n\nBakso Lapangan Tembak Senayan merupakan salah satu restoran asal Jakarta yang ada di Jogja. Resto satu ini terletak di Mall Ambarukmo Plaza dan Jogja City Mall. Bakso Lapangan Tembak sendiri sudah didirikan sejak tahun 1972 oleh Ki Ageng Widyanto Suryo Buwono.
+
+ \n\nMenu utama yang disajikan ditempat ini adalah aneka bakso seperti Bakso Istimewa, Bakso Saos Padang, Bakso Goreng, Bakso Urat, dan masih banyak lagi. Selain itu tersedia pula aneka Chinese Food di tempat ini. Untuk harga makanan dibandrol minimal Rp 17.000,-.
+</string>
+                <string name="Granatz_alamat">
+Ruko Babarsari, Jl. Babarsari No.44, Sleman, Special Region of Yogyakarta 55281, Indonesia    </string>
+<string name="Granatz_deskripsi">
+     Bakso Granat Pedazz merupakan salah satu rumah makan bakso yang ada di Jogja. Tempat makan satu ini saat ini telah memiliki beberapa cabang yang tersebar di kota Jogja. Rumah makan bakso ini buka pada pukul 10 pagi.
+
+     \n\nMenu utama yang disajikan di tempat ini adalah Bakso, beberapa menu bakso yang disajikan antara lain Bakso Granatz Pedas, Bakso OMDO, Bakso Ranjau. Untuk harga makanan dibandrol minimal Rp 8.000,-.
+</string>
+<string name="Baskom_alamat">
+Jalan Wonosari KM.9, RT.06 / RW.05, Sendang Tirto, Berbah, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55573, Indonesia
+</string>
+<string name="Baskom_deskripsi">
+    Baskom Jogja, Bakso Komplit Jogja adalah salah satu Rumah makan dengan menu utama bakso sapi terfavorit di kota Jogja. Masih dengan motto “Hanya Baskom yang konsiten Berani bahan baku menggunakan daging Sapi Murni”. Pilihan menu yang lengkap, halal, rasa yang enak, tempat yang bersih, parkir yang luas, harga yang terjangkau serta pelayanan yang ramah.
+</string>
+    <string name="Idola_alamat">
+Jalan Taman Siswa No. 100, Daerah Istimewa Yogyakarta 55151, Indonesia
+</string>
+<string name="Idola_deskripsi">
+\n\nSesuai deengan nama warung ini, cita rasanya pun juga idola banget dengan aromanya yang menggoda. Warung Bakso Idola berlokasi di Jl.Taman Siswa Yogyakarta (utara Kampus Fakultas Hukum Universitas Islam Indonesia /UII) selalu ramai dengan pengunjung yang berkuliner, selain itu juga warung bakso ini menjadi favorit para pemburu bakso di Jogja.
+
+\n\nMenu special dari warung Bakso Idola adalah bakso rusuk yang lengkap dengan mie putih dan kuning bertabur sawi hijau. Panasnya siraman kuah pada mangkuk yang sudah terisi racikan baksonya membuat aromanya kemana-mana, membuat tak sabar ingin segera mencicipinya membuat perasaan tak sabar. Memanglah idola, karena dengan mencium aromanya saja sudah menggoda apalagi mencicipinya akan tambah istimewa.
+</string>
+    <string name="Supri_alamat">
+Jalan Taman Siswa No. 100, Daerah Istimewa Yogyakarta 55151, Indonesia
+</string>
+<string name="Supri_deskripsi">
+    Bakso Krikil Pak Supri merupakan cabang bakso di Magelang, kenapa di sebut bakso krikil karena bakso yang kecil dan banyak menyerupai krikil. Berada di jalan Godean aksesnya mudah di cari.
+</string>
+        <string name="Sronto_alamat">
+Jl. Letjen Suprapto, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55272, Indonesia
+</string>
+<string name="Sronto_deskripsi">
+    Menu utama di warung berwarna hijau biru ini adalah mie ayam yang dibagi dua menu mie ayam bakso mie ayam pangsit, ditambah dengan menu tambahan yang tidak kalah menggugah selera. Warung mie ayam yang pernah masuk acara kuliner kecap bangau satu bulan penuh di Indosiar ini, memiliki berbagai macam menu makanan antara lain, Mie Komplit yang terdiri mie, bakso dan pangsit. Bakso dan soto daging sapi melengkapi sajian makanan di sini.
+</string>
+        <string name="Hadi_alamat">
+Jalan Taman Siswa No. 100, Daerah Istimewa Yogyakarta 55151, Indonesia
+</string>
+<string name="Hadi_deskripsi">
+    \n\nBakmi mBah Hadi dirintis oleh Bapak Gumbreg Hadisumarto (mBah Hadi) pada tahun 1995 dan sejak beliau meninggal pada Mei 2009 usahanya diteruskan oleh putra-putranya.
+
+    \n\nBakmi di sini dimasak satu persatu menggunakan anglo berbahan bakar arang. Penggunaan anglo dan cara memasak satu persatu ini diyakini untuk menjaga citarasa bakmi Jawa, meskipun membuat calon pembeli mesti menunggu agak lama. Bakmi mbah Hadi mengoperasikan dua anglo yang masing-masing dioperasikan oleh 2 orang, satu orang khusus mengipasi anglo dan lainnya meracik bahan bakmi dan memasaknya. Tukang masak ada 3 orang yang merupakan putra-putra mBah Hadi.
+
+    \n\nPada hari biasa warung ini biasanya menjual 200-an porsi, menghabiskan 9 ayam kampung, 12 kg mie kuning dan 12 kg mie putih (kalau kurang nambah lagi) Sedangkan pada hari libur bisa menjual 300-an porsi dan menghabiskan 13 ayam kampung.
+</string>
+            <string name="Pele_alamat">
+JL. Pojok Tenggara Alun-Alun Utara , Panembahan , Kraton , Yogyakarta , Daerah Istimewa Yogyakart, Special Region of Yogyakarta, Indonesia
+</string>
+<string name="Pele_deskripsi">
+Di Yogyakarta, kuliner ini biasa dikenal dengan sebutan Bakmi Jawa. Dari sekian banyak pedagang bakmi Jawa yang ada di Yogyakarta, satu diantaranya yang cukup terkenal adalah Bakwi Jawa Pak Pele.
+
+\n\nLokasi bakmi jawa ini sangat mudah ditemui yakni di pojok timur bagian selatan Alun-alun Utara Yogyakarta, atau tepatnya di depan SD Keputran. Warung Bakmi Pele ini mulai buka dari pukul 17.30 sampai malam hari.
+
+    \n\nBeragam menu dapat anda nikmati di warung bakmi yang dimiliki oleh mantan pemain sepakbola tersebut, seperti bakmi goreng, bakmi ‘godog’ (rebus), bakmi nyemek (kuahnya lebih sedikit dari bakmi rebus), nasi goreng, dan magelangan (nasi goreng yang dicampur bakmi). Sama seperti kebanyakan bakmi jawa, terdapat dua jenis bakmi yakni bakmi kuning dan bihun.
+
+\n\nUntuk menu bakmi, baik godok maupun goreng, bakmi dimasak bersama dengan potongan daging ayam kampung, telur, irisan kol. Rasa gurih dari kaldu ayam yang digunakan dalam proses pemasakan menjadikan cita rasa bakmi Pak Pela semakin nikmat.
+
+\n\nSalah satu yang spesial dari Bakmi Pak Pele adalah penggunaan telur bebek yang semakin membuat masakan semakin gurih. Pengunjung bisa memilih menggunakan bakmi kuning atau bihun dalam hidangan yang dipesan. Dalam penyajian biasa, bakmi jawa dimasak dengan campuran bakmi kuning dan bihun.
+</string>
+
+    <string name="shibitsu_alamat">
+JL. Pojok Tenggara Alun-Alun Utara , Panembahan , Kraton , Yogyakarta , Daerah Istimewa Yogyakart, Special Region of Yogyakarta, Indonesia
+</string>
+<string name="shibitsu_deskripsi">
+\n\nBakmi Shibitsu menghadirkan pengalaman membisu ganda saat mencicipnya. Penjual yang bekerja tanpa kata menyiratkan etos kerja keras dan rasa bakmi yang sanggup membuat anda kehilangan kata singgah ke lidah.
+
+\n\nJika anda adalah salah satu penggemar berat bakmi, ketika sedang berada di Yogyakarta cobalah untuk mampir mengunjungi warung makan bakmi Shibishu yang terletak di Jalan Raya Bantul No.106. Tempat ini dapat ditempuh sekitar lima menit dari Malioboro, tepatnya 500 meter selatan Pojok Beteng Kulon. Jangan terkecoh oleh namanya yang agak berbau Jepang, bakmi ini dimiliki oleh orang Yogya asli dan sudah beroperasi sejak 25 tahun lalu.Warung makan ini adalah yang paling banyak dikunjungi dibandingkan warung-warung makan lain yang ada di sekitarnya.
+
+\n\nSelain keramaiannya tersebut pada awalnya saya cukup bingung dengan apa yang akan saya temui di warung makan ini. Tempat ini terkenal dengan nama bakmi bisu. Ada beberapa pikiran iseng saya berkenaan dengan istilah tersebut. Pertama, bakmi tersebut saking enaknya sehingga ketika mencobanya, kita akan membisu alias tidak bisa berkata-kata. Pikiran yang kedua, yang menjajakan bakmi ini alias si penjual adalah orang yang tuna wicara atau bisu. Saat memesan satu porsi bakmi goreng kepada seorang wanita paruh baya yang sedang meracik bumbu saya mengira tebakan iseng saya yang kedua sudah gugur, karena si ibu tersebut ternyata bisa bicara
+</string>
+        <string name="mbahmo_alamat">
+JL. Pojok Tenggara Alun-Alun Utara , Panembahan , Kraton , Yogyakarta , Daerah Istimewa Yogyakart, Special Region of Yogyakarta, Indonesia
+</string>
+<string name="mbahmo_deskripsi">
+    \n\nBakmi Mbah Mo adalah bakmi Jawa terenak yang pernah ada. Perpaduan antara bahan serta bumbu yang digunakan menghadirkan satu harmoni rasa yang sulit dijumpai di bakmi Jawa manapun. Tampilannya juga agak berbeda dengan kebanyakan menu serupa. Bakmi gorengnya nampak lebih kesat, tidak berminyak atau basah, dengan suwiran daging ayam kampung dan bulir-bulir kecil telur yang melapisi sekujur mie.
+
+\n\nKuah dari bakmi godog atau bakmi rebusnya sepintas terlihat creamy, seperti menggunakan santan. Tapi sesungguhnya kuah kental tersebut merupakan hasil perpaduan dari aneka bumbu, kuah kaldu, dan telur bebek. Tingkat kematangan mie-nya pas, tidak terlalu lembek. Warna Bakmi Mbah Mo juga terlihat pucat karena tidak menggunakan kecap. Meski begitu, penampilannya tetap menggoda dan rasanya pun menawan.
+
+\n\nBerbeda dengan umumnya bakmi Jawa yang mempunyai citarasa sedikit manis karena tambahan kecap, Bakmi Mbah Mo lebih didominasi rasa asin-gurih. Bumbu yang digunakan sebenarnya tidak ada yang khusus, antara lain ada bawang merah, bawang putih, kemiri, garam, dan cabai. Namun penggunaan bahan pilihan seperti ayam kampung dan telur bebek bisa menghadirkan citarasa bakmi Jawa yang istimewa. Untuk bahan mie-nya, Bakmi Mbah Mo menggunakan mie telur berbentuk bulat dengan diameter kecil, nyaris seperti mie instan. Di tempat lain, biasanya mie yang digunakan berbentuk gepeng. Bahan tambahannya berupa kol, daun bawang, daun seledri, dan tentunya taburan bawang merah goreng.
+</string>
+<string name="doring_alamat">
+Jalan Suryowijayan No. 348, Kota Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia
+</string>
+<string name="doring_deskripsi">
+    \n\nJika jalan-jalan ke Yogyakarta dan lewat jalan Suryowijayan, sempatkan mampir ke Bakmi Doring. Lokasinya di jalan Suryowijayan nomor 348, daerah Jokteng Kulon (Pojok Beteng Kulon), berdekatan dengan Taman Sari (Water Castle). Memang harus masuk gang untuk menuju ke sana, tapi di pinggir jalan Wakhid Hasyim, Anda bisa melihat plang namanya.
+
+    \n\nMeski embel-embel bakmi, tapi Anda juga bisa memesan nasi goreng biasa dan nasi goreng magelangan. Di Yogyakarta, nasi goreng magelangan adalah sebutan dari nasi goreng yang dicampur dengan mi. Cukup mengeyangkan jika disantap sendiri. Bakmi rebus di tempat ini disajikan dengan mangkuk agak lebar karena “banjir” kuah. Kuah bakmi rebusnya memang cukup banyak sehingga terasa sangat segar, apalagi jika disantap tatkala hujan atau udara dingin. Tekstur bakminya benar-benar kenyal, bumbu kuahnya juga meresap, sedap. Daging ayam yang “berendam” di tengah-tengah kuah bakmi juga terasa empuk. Rasa bakmi gorengnya tak kalah “nendang”. Porsinya lumayan gede. Bumbunya meresap. Bakmi ini disajikan di piring, bagian atasnya ditaburi bawang goreng. Harga satu porsi bakmi, baik goreng maupun rebus sangat  terjangkau, hanya Rp 15.000.
+
+    \n\nHarga minuman bervariasi jeruk anget Rp 2.000, dan Pci Rp 4.000. Anda juga bisa membawa pulang uwoh dalam bentuk kering untuk diseduh dan diminum dirumah. Minuman yang satu ini paling laris dibeli orang. Tempat makan yang didirikan oleh Pak Suryono tahun 1985 ini termasuk tempat kuliner yang mampu bertahan lama karena kelezatan masakannya.
+
+</string>
+    <string name="rebo_alamat">
+Jl. Brigjen Katamso, Keparakan, Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55131, Indonesia
+</string>
+<string name="rebo_deskripsi">
+\n\nHal yang berbeda dari bakmi pak Rebo dengan bakmi lainya adalah cara memasaknya. Pak Rebo memasak satu persatu pesanan yang masih menggunakan tungku dari tanah liat dan bahan bakar arang. Cara tersebut dipertahankan oleh penerus pak Rebo untuk menjaga kualitas bakmi bagi para pelanggannya. Satu hal lagi yang mungkin tiada duanya yakni Bakmi pak Rebo tidak pernah menggunakan kecap, sehingga secara fisik bakmi pak Rebo kelihatan pucat, walaupun demikian untuk rasa boleh diadu. Untuk yang senang menggunakan kecap bisa menambahkan sendiri berupa sambal kecap.
+
+\n\nJika diperhatikan, bakmie goreng pak Rebo tidak terlalu kering atau bisa dibilang nyemek. Dengan mengunakan telur bebek danmie pak rebo, bakmi jawa suwiran daging ayam kampung yang banyak, membuat bakmi goreng maupun godog penuh dengan protein. Perpaduan yang pas antara mie kuning yang lembut dengan suwiran daging ayam yang besar dan banyak serta telur bebek dan tentunya dengan bumbu – bumbu menghasilkan cita rasa lezat. Entah kenapa yang menjadi ciri khas bakmie pak Rebo jika dibungkus untuk dibawa pulang pengikat bungkus atau penusuk yang biasanya berupa staples atau lidi, pembungkus bakmie pak Rebo ini berupa paku kecil.
+</string>
+        <string name="geno_alamat">
+            Jl. Parangtritis, Daerah Istimewa Yogyakarta 55143, Indonesia
+</string>
+<string name="geno_deskripsi">
+    \n\nWarung Bakmi Jawa Pak Geno yang merupakan bakmi legendaris asli wisata kuliner Yogyakarta. Konon kuliner Jogja yang satu ini berdiri sejak tahun 1950an dan dirikan oleh Pak Geno dengan sungguh-sungguh, dari merintis hingga menjadi dikenal masyarakat dan mempunyai pelanggan. Beberapa tahun setelah Pak Geno meninggal dunia, kemudian pada tahun 1988 warung ini dikelola oleh anak tertuanya Pak Geno yaitu Pak Harjo Geno.
+
+\n\nTernyata hidangan warung Bakmi Jawa Pak Harjo Geno ini pernah menjadi menu favorit mantan Presiden Republik Indonesia yang kedua, yaitu Pak Suharto. Menu yang ditawarkan di warung Bakmi Pak Geno diantaranya; mie goreng, mie godog Jogja, magelangan dan nasi goreng. Untuk soal rasa dalam meracik bumbunya, sampai sekarang Pak Harjo Geno masih menggunakan bumbu-bumbu tradisional. Meskipun warung Bakmi Jawa Harjo Geno ini sudah lama berdiri, untuk citarasanya masih terjaga kelezatanya.
+
+\n\nUntuk wisata kuliner Yogyakarta yang satu ini, saya memilih mencoba untuk menikmati bakmi godognya. Dan untuk minumnya saya memilih jeruk hangat sebagai teman makan saya. Ternyata rasa bakmi godog Pak Harjo Geno memang benar-benar lezat. Aromanya yang kuat, kuahnya yang kental dengan rasa gurih kaldu dan rempahnya, ditambah lagi dengan menggunakan telur bebek serta irisan ayam kampung. Pokoknya dalam satu porsi bakmi Pak Geno sudah bisa membuat anda kenyang.
+</string>
+            <string name="dumuk_alamat">
+                JL. Magelang, Km 12, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta, Indonesia
+            </string>
+<string name="dumuk_deskripsi">
+    \n\nBakmi Jawa satu ini lain daripada yang lain. Mulai dari jam buka yang hingga dinihari, hingga penjualnya yang terdiri atas ibu-ibu rumah tangga. Untuk soal citarasa tidak perlu ditanyakan lagi sangatlah mantap dan cocok sekali dijadikan menu untuk santap sahur. Disini kita dapat memilih menu antara lain bakmi goreng atau rebus, nasi goreng, bihun goreng atau rebus, dan magelangan yang merupakan campuran nasi dan mie goreng.
+
+\n\nSeperti halnya kebanyakan warung bakmi jawa yang lain, bakmi mbah dumuk dimasak masih menggunakan arang kayu sehingga menciptakan aroma yang sangat khas. Lebih spesial lagi, telur yang digunakan bukanlah telur ayam melainkan telur bebek dan air kaldunya berasal dari rebusan ayam kampung asli. Kesegaran kuahnya sangatlah cocok untuk menghangatkan perut pada dini hari. Untuk bisa menyantap hidangan nikmat ini cukup mengeluarkan uang sepuluh ribu rupiah, sangat murah bukan?
+
+\n\nLokasi warung Bakmi Mbah Dumuk sangatlah mudah ditempuh, berada di Jalan Magelang km 12 atau seberang pasar Sleman sebelah kanan jalan jika dari arah Jogja. Sudahkah anda mempertimbangkan untuk sasaran kuliner Jogja Anda? Tempat ini sangatlah dapat dijadikan referensi.
+</string>
+<string name="kadin_alamat">
+    Jalan Bintaran Kulon No. 6, Wirogunan, Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55151, Indonesia
+</string>
+<string name="kadin_deskripsi">
+    \n\nBakmi yang satu ini sudah cukup terkenal di Jogja, namanya Bakmi Kadin. Bakmi Kadin berlokasi di Jl. Bintaran Kulon No, 3 dan 6 (sebelah wartel Kadin). Bakmi Kadin ini juga dikenal sebagai "Bakmi Kadin Mbah HJ. Karto/Pak Rochadi". Pendiri Bakmi Kadin adalah Mbah HJ. Karto pada tahun 1947, sedangkan penerusnya adalah Bapak Rochadi.
+
+\n\nDan dari zaman Presiden Soeharto, Bakmi Kadin salah satu tempat makan favorit kalau beliau sedang ke Yogyakarta. Nah di Bakmie Kadin menu makanan khas atau yang terkenalnya adalah bakmi godok (rebus) atau bakmi goreng. Yuuk kita cobain.
+
+\n\nDi sini tersedia juga bakmi Kadin Special, bakmie menu bisa yang isinya ditambah dengan hati/ampela/sayap/kepala ayam. Bahan-bahan yang digunakan adalah mie, bawang goreng, ayam, kol, telor, tomat, daun bawang dan kekian. Enak lho, khas jawa banget hehe. Masaknya juga masih tradisional banget di Bakmi Kadin, yaitu masih menggunakan arang. Karena menurut penjualnya, menggunakan arang panas apinya pas banget.
+</string>
+    <string name="lethek_alamat">
+        Jalan Sarirejo, Maguwoharjo, Depok, Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281, Indonesia
+    </string>
+<string name="lethek_deskripsi">
+    \n\nBerbicara masalah Bakmi, jika anda sedang menuju Pantai Parangtritis yang sangat terkenal di pesisir selatan Jawa, anda akan melewati Kabupaten Bantul. Kabupaten ini selain memiliki Kerajinan Grabah, Kerajinan Kulit yang berkualitas, Institut Seni Indonesia yang hebat, dan Makam Raja-Raja Imogiri yang mendunia, juga memiliki kuliner khas yang sangat sayang untuk dilewatkan. Kuliner ini terkenal dengan nama Mie Lethek, dan salah satu yang melegenda adalah Mie Lethek Mbah Mendes.
+
+    \n\nMie Lethek adalah sebuah Bakmi yang menyerupai bakmi lainnya, bahkan mungkin hampir sama dengan Bakmi Jawa Khas Gunugkidul. Keunikan Mie Lethek adalah berasal dari bahan utamanya, yaitu Mie. Dalam bahasa Jawa, “Lethek” berarti kusam atau kotor. Satu hal yang dinilai pertama kali adalah penampakannya yang kusam atau kotor. Mengapa Mie yang kusam dijadikan bahan utama pembuatan menu ini? Mie Lethek bukan sembarang mie yang kusam saja. Dibalik kekusaman penampakan mie tersebut, anda dapat menengok bagaimana mie ini dibuat.
+
+    \n\nBahan dasar dari Mie ini adalah Gaplek atau Singkong yang sudah terlebh dahulu dihaluskan menjadi tepung. Dari bahan dasar ini, sudah bisa dimaklumi kalau warna tepung dan mie yang dihasilkan tidak akan secerah mie dari bahan dasar lain. Setelah menjadi tepung, proses pembuatan mie ini sangatlah unik dengan menggunakan tenaga sapi. Sebuah pabrik Mie Lethek yang ada di kawasan Bendo, Srandakan, Bantul menunjukkan bagaimana adonan mie diratakan oleh seekor sapi yang selalu berjalan memutari loyang raksasa. Walaupun demikian, kehigenisan mie ini sangat terjamin dan kesehatan mie ini juga tidak dapat diragukan. Bagaimana tidak? Mie ini diproduksi tanpa menggunakan pewarna, dan pengawet. Cara mengeringkan Mie ini sendiri langsung dengan sinar matahari, dan tidak menggunakan MSG sedikitpun. Setelah adonan sudah rata, maka proses pembuatan Mie Lethek yang siap untuk dimasak dilanjutkan seperti proses pembuatan mie pada umumnya.
+
+    \n\nMie Lethek Mbah Mendes menjadi salah satu pelopor penggunaan Mie Lethek asli Bantul sebagai bahan dasar pembuatan aneka menu Bakmi. Seperti tempat makan Bakmi pada umumnya, Mie Lethek Mbah Mendes memberikan berbagai pilihan menu yang siap memanjakan perut pecinta mie, mulal dari Mie Goreng, Mie Godog (Rebus), sampai aneka menu Mie yang unik dan khas disana. Jika anda ingin mencicipi menu selain Mie, anda juga bisa memilih Nasi Goreng, Plencing Godog, atau Magelangan, yaitu campuran antara Mie Lethek dan Nasi yang digoreng menyerupai Nasi Goreng. Rasa yang dihasilkan dari Mie Lethek tentunya akan berbeda dibandingkan Bakmie yang lain. Mie Lethek yang sudah diolah menjadi Bakmi Goreng atau Bakmi Godog akan memberikan kesan dan rasa yang berbeda, yaitu tekstur mie yang lebih padat dan kasar, serta efek dari rasa Gaplek di Mie yang bercampur dengan kuah dan bumbu-bumbu andalannya.
+</string>
+        <string name="gito_alamat">
+            Peleman,, Jl. Nyi Ageng Nis, Rejowinangun, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55171, Indonesia
+        </string>
+<string name="gito_deskripsi">
+    \n\nWarung Bakmi Mbah Gito bisa kita sebut sebagai Bakmi Ndelik alias tersembunyi di pelosok desa tepatnya Jl. Nyi Ageng Nis, Peleman, Rejowinangun, Kotagede. Menuju lokasi kuliner Jogja ajib ini butuh konsentrasi karena mblusuk memang. Bolehlah Santap Mania bertanya ke orang orang sekitar situ, mereka akan mengarahkan karena saking topnya bakmi Mbah Gito.
+
+\n\nBagi Santap Mania yang sibuk dengan rutinitas kantor atau kuliah, memilih memburu kuliner bakmi Mbah Gito ialah tepat. Tidak akan kecewa karena sedari masuk warungnya sudah disuguhi pemandangan elok yang khas Jawa. Dekorasi warung tampak indah dengan ornamen agraris seperti cangkul, sabit, radio antik, wayang punakawan, dan masih banyak lagi. Perlu diketahui jika warung ini dibangun dengan kayu bekas kandang sapi dan tiangnya dari batang kelapa. Wah, benar benar otentik, ya!
+
+    \n\nPelayannya memakai kebaya lurik untuk perempuan dan laki laki mengenakan surjan lengkap dengan blangkon. Suara tetabuhan dari musik Jawa yaitu gamelan mengiringi langkah Santap Mania untuk bergegas memesan bakmi atau menu lain semacam rica rica, magelangan, mi goreng, atau santapan lain yang tak kalah seru. Semua tersaji untuk Santap Mania yang menginginkan kuliner Jogja spesial ditambah suasanan Jawa yang ngangeni.
+
+\n\nWarung Bakmi Mbah Gito melayani pengunjung dari jam sepuluh pagi hingga sebelas malam
+</string>
 </resources>
+
+
